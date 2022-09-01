@@ -1,10 +1,10 @@
-#Script and Macros Used for Analysis of MD Trajectories of YidC Studied in Article: Deciphering the Inter-domain Decoupling in the Gram-negative Bacterial Membrane Insertase Authors: Adithya Polasa and Mahmoud Moradi
+#Script and Macros Used for Analysis of MD Trajectories of YidC Studied in Article: **Deciphering the Inter-domain Decoupling in the Gram-negative Bacterial Membrane Insertase Authors: Adithya Polasa and Mahmoud Moradi**
 
-#Dynamic Network Analysis (calc_correlation_custom.py)
+**#Dynamic Network Analysis** (calc_correlation_custom.py)
 
 This is done using python package MD-TASK, software suite of MD analysis tools, was used to calculate the correlation coefficient for the motion of each C_alpha atom relative to the other C_alpha atoms. A correlation matrix M was generated for each of the three protomers in all the simulated trajectories. Additionally, a correlation matrix for the entire trimer was calculated for each simulation to explore correlations between structures of different protomers.
 
-#Hydrogen Bond Analysis (hbond.tcl)
+**#Hydrogen Bond Analysis** (hbond.tcl)
 
 Hydrogen bond analysis script calculatest the hydrogen bond distance between two residues.
 
@@ -27,3 +27,5 @@ These are VMD scripts For the inter helical angle calculations, we chose residue
 #Water Analysis (water.tcl)
 
 The amount of solvent water inside the groove quantified using water analysis VMD script. This calculates the number of water molecules within 5 ̊A of the R366 for every frame of trajectory.
+
+#Simulation files (PDB's) structure coordinate files of all YidC systems studied in this research are provided here.
