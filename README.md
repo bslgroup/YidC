@@ -25,4 +25,5 @@ This script finds saltbridges in the system and calculates distance of the saltb
 These are VMD scripts For the inter helical angle calculations, we chose residues of indivual helices of YidC Transmembrane region. The angle script measures, vector angle between the helix 1 and Helix 2 and computed angle was subtracted from 180◦.
 
 #Water Analysis (water.tcl)
+
 The amount of solvent water inside the groove quantified using water analysis VMD script. This calculates the number of water molecules within 5 ̊A of the R366 for every frame of trajectory.
