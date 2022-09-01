@@ -1,4 +1,4 @@
-###Script and Macros Used for Analysis of MD Trajectories of YidC Studied in Article: Deciphering the Inter-domain Decoupling in the Gram-negative Bacterial Membrane Insertase Authors: Adithya Polasa and Mahmoud Moradi
+#Script and Macros Used for Analysis of MD Trajectories of YidC Studied in Article: Deciphering the Inter-domain Decoupling in the Gram-negative Bacterial Membrane Insertase Authors: Adithya Polasa and Mahmoud Moradi
 
 #Dynamic Network Analysis (calc_correlation_custom.py)
 
