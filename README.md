@@ -6,13 +6,19 @@ This is done using python package MD-TASK, software suite of MD analysis tools, 
 
 #Hydrogen Bond Analysis (hbond.tcl)
 
+Hydrogen bond analysis script calculatest the hydrogen bond distance between two residues.
+
 #Principal Component analysis (PCA) (PCA.py)
 
 PCA performed with ProDy using this python script to quantify the persistent conformational changes and relative motions of the active and inactive states.
 
 #Root Mean Square Deviation (RMSD) (RMSD.tcl)
 
+Calculates the RMSD of the protein. All the atoms are aligned onto a reference structure intial frame of the protein.
+
 #Salt-Bridge Analysis (salt.tcl)
+
+This script finds saltbridges in the system and calculates distance of the saltbridge for entire trajectory.
 
 #Transmembrane Helical Angle (inter_helical_angle.tcl)
 
