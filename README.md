@@ -1,7 +1,3 @@
-element {
-  font-size: 75;
-}
-
 #Script and Macros Used for Analysis of MD Trajectories of YidC Studied in Article: ****Deciphering the Inter-domain Decoupling in the Gram-negative Bacterial Membrane Insertase Authors: Adithya Polasa and Mahmoud Moradi****
 
 **#Dynamic Network Analysis** (calc_correlation_custom.py)
@@ -12,24 +8,24 @@ This is done using python package MD-TASK, software suite of MD analysis tools, 
 
 Hydrogen bond analysis script calculatest the hydrogen bond distance between two residues.
 
-#Principal Component analysis (PCA) (PCA.py)
+**#Principal Component analysis (PCA)** (PCA.py)
 
 PCA performed with ProDy using this python script to quantify the persistent conformational changes and relative motions of the active and inactive states.
 
-#Root Mean Square Deviation (RMSD) (RMSD.tcl)
+**#Root Mean Square Deviation (RMSD)** (RMSD.tcl)
 
 Calculates the RMSD of the protein. All the atoms are aligned onto a reference structure intial frame of the protein.
 
-#Salt-Bridge Analysis (salt.tcl)
+**#Salt-Bridge Analysis** (salt.tcl)
 
 This script finds saltbridges in the system and calculates distance of the saltbridge for entire trajectory.
 
-#Transmembrane Helical Angle (inter_helical_angle.tcl)
+**#Transmembrane Helical Angle** (inter_helical_angle.tcl)
 
 These are VMD scripts For the inter helical angle calculations, we chose residues of indivual helices of YidC Transmembrane region. The angle script measures, vector angle between the helix 1 and Helix 2 and computed angle was subtracted from 180◦.
 
-#Water Analysis (water.tcl)
+**#Water Analysis** (water.tcl)
 
 The amount of solvent water inside the groove quantified using water analysis VMD script. This calculates the number of water molecules within 5 ̊A of the R366 for every frame of trajectory.
 
-#Simulation files (PDB's) structure coordinate files of all YidC systems studied in this research are provided here.
+**#Simulation files (PDB's)** structure coordinate files of all YidC systems studied in this research are provided here.
