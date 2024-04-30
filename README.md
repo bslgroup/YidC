@@ -28,4 +28,4 @@ These are VMD scripts For the inter helical angle calculations, we chose residue
 
 The amount of solvent water inside the groove quantified using water analysis VMD script. This calculates the number of water molecules within 5 ̊A of the R366 for every frame of trajectory.
 
-**#Simulation files** structure coordinate files of all YidC systems studied in this research are provided here in PDB format. The NAMD configuration file is available in the Stampede-NAMD folder, and Anton 2 configuration file can be found in the Anton 2 folder.
+**#Simulation files** structure coordinate files of all YidC systems studied in this research are provided here in PDB format. The NAMD configuration file and PSF file are also available for the system without the C2 loop in the YidC_Delta_C2 folder. The Anton 2 configuration file can be found in the Anton 2 folder.
