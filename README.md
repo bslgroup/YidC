@@ -28,4 +28,4 @@ These are VMD scripts For the inter helical angle calculations, we chose residue
 
 The amount of solvent water inside the groove quantified using water analysis VMD script. This calculates the number of water molecules within 5 ̊A of the R366 for every frame of trajectory.
 
-**#Simulation files (PDB's)** structure coordinate files of all YidC systems studied in this research are provided here.
+**#Simulation files** structure coordinate files of all YidC systems studied in this research are provided here in PDB format. The Anton 2 configuration file can also be found in the Anton 2 folder.
